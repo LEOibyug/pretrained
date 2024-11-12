@@ -91,7 +91,7 @@ if __name__ == '__main__':
         if i % 100 == 0:
             print('processing (%04d)-th image... %s' % (i, img_path))
         
-    directory_path = 'results/style_monet/test_latest'
+    directory_path = f'results/style_monet/test_{opt.epoch}'
     keyword = 'real'
     delete_files_with_keyword(directory_path, keyword)
     rename_files_sequentially(directory_path)
