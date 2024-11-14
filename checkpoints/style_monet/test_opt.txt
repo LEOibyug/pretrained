@@ -3,11 +3,11 @@
                batch_size: 1                             
           checkpoints_dir: ./checkpoints                 
                 crop_size: 256                           
-                 dataroot: ./datasets/pics/test/Real     	[default: None]
+                 dataroot: D:\Desktop\MachineLearning\pics\test\Real	[default: None]
              dataset_mode: single                        
                 direction: AtoB                          
           display_winsize: 256                           
-                    epoch: latest                        
+                    epoch: 1000                          	[default: latest]
                      eval: False                         
                   gpu_ids: 0                             
                 init_gain: 0.02                          
